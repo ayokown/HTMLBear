@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- IMPORTANT LINE OF CODE BELOW! It will load the style.css file into the HTML file. As a further explanation:
+The <link> tag allows the HTML code to reference another file within the project. 
+"href" is the path of the file (all the files are in the same folder, so we only need to put "style.css")
+"rel" is the relationship the file has with the HTML. In other words, we specify "rel" as a stylesheet, so the code knows to use
+the file for page decorations.
+"type" is just further specification of the file type, so HTML reads the file properly. It could be ommited, but it's more efficient to
+leave it in.
+!-->
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- Name credit ommited for privacy (Add back in final revision) !-->
+
+<html>
+    <head>
+        <title>Bear Story</title>
+    </head>
+    <!-- The attributes for the "mainBackground" can be found in style.css. 
+    It is the same as using <body style="[properties]"></body>, but makes the HTML code less cluttered. 
+    !-->
+    
+    <!--
+    Differences between "id" and "class" (atleast for this project)
+    I use the "id" tag when I don't need to reuse an element (the page background on all pages will be different, so they'll use id)
+    I use the "class" tag when I reuse an element (the text background will be the same on all pages, so they'll use class)
+    !-->
+    <body id="mainBackground">
+        <div>
+            <p class="storyText">
+                You are walking in the forest at night. 
+                The shadows of trees among the starry night sky are the only things that guide you in
+                this deep, dark place.<br>
+                While you walk down the path of trees, you hear the sound of bushes rustling, and turn towards the source of the sound.
+                You are frozen with fear;what could possibly be there? 
+                The sounds grow louder, and the leaves fly out the bush as whatever's in
+                there rips apart the branches within them.
+                Soon enough, the creature emerges from the bush, walking on all fours, and sniffing around for its next 
+                prey. You can't make out what it is, but once it stands up on its legs and emits a deep growl, 
+                you see the shadowy sillouette of a bear.<br>
+                <em id="em1">It would be wise to make a decision before it spots you.<em></em>
+            </p>
+        </div>
+        <div>
+            <a href="choice1.html">
+                <button class="choiceButton">
+                    Attack the Bear
+                </button>
+            </a>
+              <a href="choice2.html">
+                <button class="choiceButton">
+                    Play Dead
+                </button>
+            </a>
+        </div>
+    </body>
+</html>

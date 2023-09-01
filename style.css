@@ -1,0 +1,49 @@
+/* We set the entire HTML page to 100% height, so the scaling on the page remains consistent.
+(also allows us to fit the background image to the full page size)
+*/
+body, html {
+    height: 100%;
+  }
+  /* Remove the purple underline that appears when hovering over a recently visited link */
+  a {
+      text-decoration: none; 
+      color: white;
+  }
+  
+  .choiceButton {
+      transition: 0.5s ease-in-out;
+      position: relative;
+      margin: auto;
+      width: 100%;
+      height: 50px;
+      background-color: black;
+      color: white;
+      font-size: 20px;
+  }
+  
+  .choiceButton:hover {
+      background-color: gray;
+      font-size: 25px;
+  }
+  .storyText {
+      color: white;
+      background: rgba(64, 64, 64, 0.8);
+      border-style: outset;
+      border-width: 15px;
+      border-color: black;
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  #em1 {
+      font-size: 40px;
+  }
+  
+  #mainBackground {
+      background-image: url("BigBear.png");
+      height: 90%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
