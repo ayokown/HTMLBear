@@ -1,2 +1,2 @@
 # HTMLBear
-school project.
+school project
