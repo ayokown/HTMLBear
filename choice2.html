@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 
+<!-- Same line for loading the stylesheet in index.html -->
+<link href="style.css" rel="stylesheet" type="text/css">
+
 <html>
     <head>
         <title>Choice 2: Play Dead</title>
     </head>
     
-    <body>
-        <h1>You play dead (placeholder)</h1>
+    <body id="choice2Background">
+        <!-- Majority of the changes made to the code are basically for the same reasons as choice1, header changed into paragraph for consistancy,
+        divs used for readability
+         -->
+        <div>
+            <p class="storyText">
+                You play dead. 
+                You drop to ground hoping and praying it leaves you alone. 
+                The bear walks closer to you to investigate your sudden death. 
+                It plays with your body searching for any sign of life. 
+                After a few minutes it gives up and leaves you alone. 
+            </p>
+            <h1 id="surviveText">
+                <em>YOU HAVE SURVIVED</em>
+            </h1>
+        </div>
+
+        <div>
+            <a href="index.html">
+                <button class="choiceButton">
+                    Restart
+                </button>
+            </a>
+        </div>
     </body>
 </html>
