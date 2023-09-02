@@ -46,4 +46,18 @@ body, html {
       background-repeat: no-repeat;
       background-size: cover;
   }
+
+  #choice1Background {
+    background-image: url("L.gif");
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
+  #deathText {
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+  }
