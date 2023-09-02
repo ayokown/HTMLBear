@@ -36,6 +36,14 @@ body, html {
       font-size: 30px;
   }
   
+
+  #creditsBG {
+    background-image: url("forestBG.jpg");
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   #em1 {
       font-size: 40px;
   }
